@@ -19,7 +19,7 @@ public class TelekardBalanseTest {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        // Set android deviceName desired capability. Set your device name.
+        // Set android deviceName desired capability. Set your device name. ттт98787987
         capabilities.setCapability("deviceName", "D6503");
 
         // Set BROWSER_NAME desired capability. It's Android in our case here.
