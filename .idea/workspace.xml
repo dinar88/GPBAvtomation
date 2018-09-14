@@ -24,25 +24,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="java" value="1312" />
+          <entry key="java" value="1515" />
           <entry key="xml" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1312" />
+          <entry key="JAVA" value="1515" />
           <entry key="PLAIN_TEXT" value="29" />
           <entry key="XML" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -61,17 +61,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MobileKalkTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="96">
               <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TelekardBalanseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+            <state relative-caret-position="76">
+              <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RegistrationWithoutNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DragAndDropAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/MobileKalkTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TelekardBalanseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RegistrationWithoutNumber.java" />
       </list>
     </option>
   </component>
@@ -152,6 +165,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536833861287" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536959428367" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../selenium/client-combined-3.14.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -179,7 +203,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TelekardBalanseTest (2)">
+  <component name="RunManager" selected="TestNG.RegistrationWithoutNumber.withoutNumber">
+    <configuration name="MobileKalkTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testappium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MobileKalkTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationWithoutNumber" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testappium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationWithoutNumber" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationWithoutNumber.withoutNumber" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testappium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationWithoutNumber" />
+      <option name="METHOD_NAME" value="withoutNumber" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TelekardBalanseTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testappium" />
       <option name="PACKAGE_NAME" value="" />
@@ -190,40 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelekardBalanseTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TelekardBalanseTest.Balanse" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testappium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TelekardBalanseTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelekardBalanseTest (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testappium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelekardBalanseTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelekardBalanseTest (5)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testappium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelekardBalanseTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelekardBalanseTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testappium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelekardBalanseTest" />
+      <option name="METHOD_NAME" value="Balanse" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -231,19 +259,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TelekardBalanseTest (4)" />
-      <item itemvalue="TestNG.TelekardBalanseTest (5)" />
+      <item itemvalue="TestNG.TelekardBalanseTest.Balanse" />
+      <item itemvalue="TestNG.MobileKalkTest" />
       <item itemvalue="TestNG.TelekardBalanseTest (1)" />
-      <item itemvalue="TestNG.TelekardBalanseTest" />
-      <item itemvalue="TestNG.TelekardBalanseTest (2)" />
+      <item itemvalue="TestNG.RegistrationWithoutNumber" />
+      <item itemvalue="TestNG.RegistrationWithoutNumber.withoutNumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TelekardBalanseTest (2)" />
-        <item itemvalue="TestNG.TelekardBalanseTest" />
+        <item itemvalue="TestNG.RegistrationWithoutNumber.withoutNumber" />
+        <item itemvalue="TestNG.RegistrationWithoutNumber" />
         <item itemvalue="TestNG.TelekardBalanseTest (1)" />
-        <item itemvalue="TestNG.TelekardBalanseTest (5)" />
-        <item itemvalue="TestNG.TelekardBalanseTest (4)" />
+        <item itemvalue="TestNG.MobileKalkTest" />
+        <item itemvalue="TestNG.TelekardBalanseTest.Balanse" />
       </list>
     </recent_temporary>
   </component>
@@ -261,35 +289,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TelekardBalanseTest_(3) - 2018.09.11 at 17h 29m 10s.xml">
-      <configuration name="TelekardBalanseTest (3)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 22h 51m 03s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest_(4) - 2018.09.11 at 17h 30m 07s.xml">
-      <configuration name="TelekardBalanseTest (4)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 22h 51m 46s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest_(5) - 2018.09.11 at 17h 31m 14s.xml">
-      <configuration name="TelekardBalanseTest (5)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 22h 55m 48s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest_(5) - 2018.09.11 at 17h 31m 59s.xml">
-      <configuration name="TelekardBalanseTest (5)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 23h 00m 04s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest_(5) - 2018.09.11 at 17h 32m 58s.xml">
-      <configuration name="TelekardBalanseTest (5)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 23h 08m 59s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest_(1) - 2018.09.11 at 17h 35m 09s.xml">
-      <configuration name="TelekardBalanseTest (1)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 23h 34m 14s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest - 2018.09.11 at 17h 46m 03s.xml">
-      <configuration name="TelekardBalanseTest" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 23h 36m 06s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest - 2018.09.11 at 17h 46m 21s.xml">
-      <configuration name="TelekardBalanseTest" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 23h 38m 14s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest - 2018.09.11 at 17h 47m 11s.xml">
-      <configuration name="TelekardBalanseTest" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.14 at 23h 39m 22s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelekardBalanseTest_(2) - 2018.09.12 at 23h 11m 39s.xml">
-      <configuration name="TelekardBalanseTest (2)" configurationId="TestNG" />
+    <history-entry file="RegistrationWithoutNumber_withoutNumber - 2018.09.15 at 00h 09m 04s.xml">
+      <configuration name="RegistrationWithoutNumber.withoutNumber" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -314,7 +342,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.28113878" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.54092526" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MobileKalkTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/YandexSearchTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -365,10 +386,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MobileKalkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TelekardBalanseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+        <state relative-caret-position="76">
+          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RegistrationWithoutNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
