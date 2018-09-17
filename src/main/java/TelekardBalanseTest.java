@@ -44,7 +44,7 @@ public class TelekardBalanseTest {
     @Test
     public void Balanse() {
 
-        driver.findElementByName("Пароль").sendKeys("Dinar1344)");
+        driver.findElementByName("Пароль").sendKeys("Qwer1234)");
         driver.findElement(By.name("Далее")).click();
 
         //Расскрываем по класснейму боковое меню

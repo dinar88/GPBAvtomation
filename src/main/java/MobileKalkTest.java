@@ -42,7 +42,7 @@ public class MobileKalkTest {
         // Set android appPackage desired capability. It is
         // com.android.calculator2 for calculator application.
         // Set your application's appPackage if you are using any other app.
-        // Эту иннфу смотрим в андроид сдк поле package
+        //  Эту иннфу смотрим в андроид сдк поле package
         capabilities.setCapability("appPackage", "com.android.calculator2");
 
         // Set android appActivity desired capability. It is
