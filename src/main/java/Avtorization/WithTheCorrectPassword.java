@@ -1,3 +1,6 @@
+package Avtorization;
+
+//Авторизация с корректным паролем
 
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
@@ -9,20 +12,21 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-
-public class RegistrationYes extends Base{
+public class WithTheCorrectPassword extends Base {
 
     @Test
-    public void registration() {
+    public void Authorization() {
 
+        driver.findElementByName("Пароль").sendKeys("Qwer1234)");
+        driver.findElement(By.name("Далее")).click();
+
+        //Расскрываем по класснейму боковое меню
         driver.findElement(By.className("android.widget.ImageButton")).click();
-        driver.findElement(By.name("Регистрация")).click();
-        driver.findElement(By.className("android.widget.ImageButton")).click();
-        driver.findElement(By.name("Нет")).click();
-        driver.findElement(By.className("android.widget.ImageButton")).click();
-        driver.findElement(By.name("Да")).click();
+        driver.findElement(By.name("Настройки")).click();
+
 
     }
+
 
     @AfterTest
     public void End() {
@@ -30,8 +34,5 @@ public class RegistrationYes extends Base{
         driver.quit();
     }
 }
-
-
-
 
 

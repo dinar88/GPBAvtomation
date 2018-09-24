@@ -10,19 +10,23 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 
-public class RegistrationYes extends Base{
+
+
+public class RegisterWithTheCorrectPassword extends Base{
 
     @Test
-    public void registration() {
+    public void Balanse() {
 
+        driver.findElementByName("Пароль").sendKeys("Qwer1234)");
+        driver.findElement(By.name("Далее")).click();
+
+        //Расскрываем по класснейму боковое меню
         driver.findElement(By.className("android.widget.ImageButton")).click();
-        driver.findElement(By.name("Регистрация")).click();
-        driver.findElement(By.className("android.widget.ImageButton")).click();
-        driver.findElement(By.name("Нет")).click();
-        driver.findElement(By.className("android.widget.ImageButton")).click();
-        driver.findElement(By.name("Да")).click();
+        driver.findElement(By.name("Настройки")).click();
+
 
     }
+
 
     @AfterTest
     public void End() {
