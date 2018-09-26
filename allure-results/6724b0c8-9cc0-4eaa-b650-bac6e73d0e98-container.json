@@ -1,0 +1,1 @@
+{"uuid":"6724b0c8-9cc0-4eaa-b650-bac6e73d0e98","name":"testappium","start":1537887597167,"stop":1537887633033,"children":["17f4ae28-7256-46fc-ab10-8d52e9e216de"],"afters":[{"name":"End","status":"passed","stage":"finished","description":"","start":1537887631624,"stop":1537887633033}]}

@@ -14,40 +14,48 @@
     <session id="2006524373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="class" value="9" />
           <entry key="dummy" value="70" />
-          <entry key="java" value="2391" />
-          <entry key="xml" value="102" />
+          <entry key="java" value="2422" />
+          <entry key="txt" value="79" />
+          <entry key="xml" value="260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2391" />
-          <entry key="PLAIN_TEXT" value="70" />
-          <entry key="XML" value="102" />
+          <entry key="CLASS" value="9" />
+          <entry key="JAVA" value="2422" />
+          <entry key="PLAIN_TEXT" value="149" />
+          <entry key="XML" value="260" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="50" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="13" />
+          <entry key="dtd" value="1" />
+          <entry key="java" value="72" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="50" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="13" />
+          <entry key="DTD" value="1" />
+          <entry key="JAVA" value="72" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -55,81 +63,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Avtorization/WithTheWrongPassword.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationYes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Avtorization/WithTheCorrectPassword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Settings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Offers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Contacts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ForgetPassword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RegistrationYes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="102">
               <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,10 +75,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RegisterWithTheCorrectPassword.java">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/HideBalance.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/Base.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/allure.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/suites/test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/Contacts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Exit.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HideBalance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="116">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,13 +144,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/SeeLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RegisterWithTheCorrectPassword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1537538094856" expanded="true" signature="683:953" ph="..." />
               </folding>
             </state>
           </provider>
@@ -187,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MobileWebTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DragAndDropAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/RegistrationWithoutNumber.java" />
@@ -213,6 +192,15 @@
         <option value="$PROJECT_DIR$/src/main/java/SideMenu/SeeLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/SideMenu/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/SideMenu/Offers.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/SideMenu/Exit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SideMenu/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Avtorization/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Avtorization/WithTheCorrectPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ForgetPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/suites/test.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -230,11 +218,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="testappium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testappium" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="96" />
     <option name="y" value="60" />
     <option name="width" value="1533" />
@@ -246,8 +239,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,13 +262,26 @@
               <item name="testappium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
               <item name="testappium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Avtorization" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -285,35 +289,69 @@
               <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
               <item name="testappium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SideMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
               <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
               <item name="testappium" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Avtorization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testappium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testappium" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="SideMenu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537774032957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537972692288" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Base.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="SideMenu" />
     </key>
@@ -334,7 +372,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Settings.Balanse">
+  <component name="RunManager" selected="TestNG.Contacts.exit">
+    <configuration name="Contacts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testappium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SideMenu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SideMenu" />
+      <option name="MAIN_CLASS_NAME" value="SideMenu.Contacts" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Contacts.exit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testappium" />
       <extension name="coverage">
@@ -353,59 +407,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HideBalance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testappium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SideMenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SideMenu" />
-      <option name="MAIN_CLASS_NAME" value="SideMenu.Exit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HideBalance" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exit.exit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MobileKalkTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testappium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SideMenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SideMenu" />
-      <option name="MAIN_CLASS_NAME" value="SideMenu.Exit" />
-      <option name="METHOD_NAME" value="exit" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MobileKalkTest" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offers.exit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testappium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SideMenu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SideMenu" />
-      <option name="MAIN_CLASS_NAME" value="SideMenu.Offers" />
-      <option name="METHOD_NAME" value="exit" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Settings.Balanse" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Settings" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testappium" />
       <extension name="coverage">
         <pattern>
@@ -415,8 +437,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="SideMenu" />
       <option name="MAIN_CLASS_NAME" value="SideMenu.Settings" />
-      <option name="METHOD_NAME" value="Balanse" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -424,19 +444,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.Contacts" />
+      <item itemvalue="TestNG.Settings" />
       <item itemvalue="TestNG.Contacts.exit" />
-      <item itemvalue="TestNG.Exit.exit" />
-      <item itemvalue="TestNG.Offers.exit" />
-      <item itemvalue="TestNG.Exit" />
-      <item itemvalue="TestNG.Settings.Balanse" />
+      <item itemvalue="TestNG.HideBalance" />
+      <item itemvalue="TestNG.MobileKalkTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Settings.Balanse" />
-        <item itemvalue="TestNG.Exit.exit" />
-        <item itemvalue="TestNG.Exit" />
-        <item itemvalue="TestNG.Offers.exit" />
         <item itemvalue="TestNG.Contacts.exit" />
+        <item itemvalue="TestNG.MobileKalkTest" />
+        <item itemvalue="TestNG.HideBalance" />
+        <item itemvalue="TestNG.Settings" />
+        <item itemvalue="TestNG.Contacts" />
       </list>
     </recent_temporary>
   </component>
@@ -454,35 +474,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exit - 2018.09.18 at 20h 52m 33s.xml">
-      <configuration name="Exit" configurationId="TestNG" />
+    <history-entry file="Settings - 2018.09.26 at 13h 56m 24s.xml">
+      <configuration name="Settings" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 20h 53m 53s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 11m 16s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 21h 25m 43s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="HideBalance - 2018.09.26 at 16h 12m 23s.xml">
+      <configuration name="HideBalance" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 21h 27m 01s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 14m 03s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 21h 28m 37s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 15m 54s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 21h 39m 43s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="MobileKalkTest - 2018.09.26 at 16h 26m 51s.xml">
+      <configuration name="MobileKalkTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 21h 40m 32s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 36m 44s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Exit_exit - 2018.09.18 at 21h 44m 23s.xml">
-      <configuration name="Exit.exit" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 37m 55s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Settings_Balanse - 2018.09.21 at 16h 45m 45s.xml">
-      <configuration name="Settings.Balanse" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 54m 00s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Settings_Balanse - 2018.09.21 at 16h 47m 51s.xml">
-      <configuration name="Settings.Balanse" configurationId="TestNG" />
+    <history-entry file="Contacts_exit - 2018.09.26 at 16h 58m 24s.xml">
+      <configuration name="Contacts.exit" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -498,7 +518,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23805667" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25101215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,8 +526,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.4128114" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.22597864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,8 +543,36 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.08825911" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.18785425" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25101215" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.22597864" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.28113878" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.18785425" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -583,148 +631,21 @@
     <entry file="file://$PROJECT_DIR$/target/classes/ForgetPassword.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Avtorization/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" lean-forward="true" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Exitt.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HideBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" selection-start-line="16" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Toast.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/MobileKalkTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="45" column="76" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
+        <state relative-caret-position="561">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ForgetPassword.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/SeeLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RegistrationYes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RegisterWithTheCorrectPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Exit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Avtorization/WithTheCorrectPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Avtorization/WithTheWrongPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Contacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Offers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/SeeLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="102">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -733,10 +654,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SideMenu/Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/Offers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        <state relative-caret-position="270">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/SideMenu/Settings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/SideMenu/SeeLogin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-388">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/SideMenu/Offers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Avtorization/WithTheWrongPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Avtorization/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/RegistrationYes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Avtorization/WithTheCorrectPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/ForgetPassword.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ForgetPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Base.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/HideBalance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationYes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HideBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MobileKalkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegisterWithTheCorrectPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng-plugin.jar!/resources/standardSchemas/testng-1.0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/suites/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SideMenu/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,6 +929,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -818,5 +948,16 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="allure:serve" />
+    <option value="allure serve" />
+    <option value="allure:report" />
+    <option value="clean test site" />
+    <option value="clean test allure:report" />
+    <option value="help:active-profiles" />
+    <option value="clean install test" />
+    <option value="clean test site jetty:run" />
   </component>
 </project>

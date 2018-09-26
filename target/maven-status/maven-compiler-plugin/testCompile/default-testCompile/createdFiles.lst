@@ -1,0 +1,14 @@
+Base.class
+SideMenu\Base.class
+Avtorization\Base.class
+HideBalance.class
+Avtorization\WithTheCorrectPassword.class
+SideMenu\Contacts.class
+SideMenu\Settings.class
+SideMenu\Exit.class
+Avtorization\WithTheWrongPassword.class
+SideMenu\Offers.class
+RegisterWithTheCorrectPassword.class
+SideMenu\SeeLogin.class
+MobileKalkTest.class
+RegistrationYes.class
