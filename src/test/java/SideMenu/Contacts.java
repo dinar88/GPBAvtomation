@@ -2,6 +2,7 @@ package SideMenu;
 
 //Проверка кониакта
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -9,9 +10,10 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class Contacts extends Base {
-
+    @Description("Здесь проверяется приходит ли номер обратной связи," +
+            "не функционал")
     @Test
-    public void exit() {
+    public void contacts() {
 
         driver.findElementByName("Пароль").sendKeys("Qwer1234)");
         driver.findElement(By.name("Далее")).click();
@@ -30,7 +32,7 @@ public class Contacts extends Base {
         //сравниваем Str1 и Str2
         boolean retVal;
         retVal = Str1.equals(Str2);
-        System.out.println("Логин корректный? Ответ: " + retVal );
+        System.out.println("Номер обратной связи есть: " + retVal );
 
 
     }

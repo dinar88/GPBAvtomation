@@ -2,16 +2,18 @@ package SideMenu;
 
 //Проверка кнопки Предложения банка
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Offers extends Base{
-
+public class Offers extends Base {
+    @Description("Здесь проверяется работоспособность кнопки ПРЕДЛОЖЕНИЯ БАНКА и то," +
+            "что есть заглушка")
     @Test
-    public void exit() {
+    public void offers() {
 
         driver.findElementByName("Пароль").sendKeys("Qwer1234)");
         driver.findElement(By.name("Далее")).click();
@@ -30,7 +32,7 @@ public class Offers extends Base{
         //сравниваем Str1 и Str2
         boolean retVal;
         retVal = Str1.equals(Str2);
-        System.out.println("Логин корректный? Ответ: " + retVal );
+        System.out.println("Текст корректный? Ответ: " + retVal );
 
 
     }

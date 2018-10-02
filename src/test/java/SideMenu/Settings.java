@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class Settings extends Base {
 
     @Test
-    public void Balanse() {
+    public void settings() {
 
         driver.findElementByName("Пароль").sendKeys("Qwer1234)");
         driver.findElement(By.name("Далее")).click();
@@ -19,6 +19,11 @@ public class Settings extends Base {
         //Расскрываем по класснейму боковое меню
         driver.findElement(By.className("android.widget.ImageButton")).click();
         driver.findElement(By.name("Настройки")).click();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         driver.findElement(By.name("Безопасность")).click();
         //По имени класса находим свитч и записываем его результат в переменную
         String result = driver.findElement(By.xpath("//android.widget.Switch[@index='1']")).getText();

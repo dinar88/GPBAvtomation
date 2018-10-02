@@ -19,10 +19,6 @@ public class Base {
     @BeforeMethod
     public void setUp() throws MalformedURLException {
 
-
-
-
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         // Set android deviceName desired capability. Set your device name. ттт9878798787о

@@ -45,7 +45,7 @@ public class Base {
         capabilities.setCapability("appActivity", "ru.gazprombank.android.mobilebank.splash.view.SplashScreenActivity");
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }
 
 }

@@ -2,15 +2,9 @@ package Avtorization;
 
 //Авторизация с корректным паролем
 
-import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 public class WithTheCorrectPassword extends Base {
 
