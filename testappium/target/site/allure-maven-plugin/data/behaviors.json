@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 40718,
+    "maxDuration" : 40718,
+    "sumDuration" : 40718,
+    "start" : 1538579954007,
+    "stop" : 1538579994725,
+    "duration" : 40718
+  },
+  "children" : [ {
+    "uid" : "b2d90f7c57969560",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 40718,
+      "maxDuration" : 40718,
+      "sumDuration" : 40718,
+      "start" : 1538579954007,
+      "stop" : 1538579994725,
+      "duration" : 40718
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "c2a3b44801b82eb9",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 40718,
+        "maxDuration" : 40718,
+        "sumDuration" : 40718,
+        "start" : 1538579954007,
+        "stop" : 1538579994725,
+        "duration" : 40718
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "1229814594baf9ba",
+        "name" : "BlockAndUnBloc",
+        "time" : {
+          "start" : 1538579954007,
+          "stop" : 1538579994725,
+          "duration" : 40718
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

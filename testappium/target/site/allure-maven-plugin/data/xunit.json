@@ -1,0 +1,93 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 40718,
+    "maxDuration" : 40718,
+    "sumDuration" : 40718,
+    "start" : 1538579954007,
+    "stop" : 1538579994725,
+    "duration" : 40718
+  },
+  "children" : [ {
+    "uid" : "71afc5255f38b3f4",
+    "name" : "regress",
+    "time" : {
+      "minDuration" : 40718,
+      "maxDuration" : 40718,
+      "sumDuration" : 40718,
+      "start" : 1538579954007,
+      "stop" : 1538579994725,
+      "duration" : 40718
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "c234f935a7c0a06d",
+      "name" : "MB тесты9",
+      "time" : {
+        "minDuration" : 40718,
+        "maxDuration" : 40718,
+        "sumDuration" : 40718,
+        "start" : 1538579954007,
+        "stop" : 1538579994725,
+        "duration" : 40718
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "e7b2d811464aad4e",
+        "name" : "Cards.BlockAndUnBlocCard",
+        "time" : {
+          "minDuration" : 40718,
+          "maxDuration" : 40718,
+          "sumDuration" : 40718,
+          "start" : 1538579954007,
+          "stop" : 1538579994725,
+          "duration" : 40718
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 1,
+          "unknown" : 0,
+          "total" : 1
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "1229814594baf9ba",
+          "name" : "BlockAndUnBloc",
+          "time" : {
+            "start" : 1538579954007,
+            "stop" : 1538579994725,
+            "duration" : 40718
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    } ]
+  } ]
+}
