@@ -1,0 +1,79 @@
+{
+  "uid" : "1229814594baf9ba",
+  "name" : "BlockAndUnBloc",
+  "fullName" : "Cards.BlockAndUnBlocCard.BlockAndUnBloc",
+  "historyId" : "4ed31d83996a1c15138a92a24982a9fb",
+  "time" : {
+    "start" : 1538579954007,
+    "stop" : 1538579994725,
+    "duration" : 40718
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Здесь проверяется блокировка и разблокировка карты на период ",
+  "descriptionHtml" : "<p>Здесь проверяется блокировка и разблокировка карты на период </p>",
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1538579943891,
+      "stop" : 1538579953510,
+      "duration" : 9619
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "End",
+    "time" : {
+      "start" : 1538579994740,
+      "stop" : 1538579996191,
+      "duration" : 1451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Cards.BlockAndUnBlocCard"
+  }, {
+    "name" : "testClass",
+    "value" : "Cards.BlockAndUnBlocCard"
+  }, {
+    "name" : "testMethod",
+    "value" : "BlockAndUnBloc"
+  }, {
+    "name" : "parentSuite",
+    "value" : "regress"
+  }, {
+    "name" : "suite",
+    "value" : "MB тесты9"
+  }, {
+    "name" : "subSuite",
+    "value" : "Cards.BlockAndUnBlocCard"
+  }, {
+    "name" : "host",
+    "value" : "G1291"
+  }, {
+    "name" : "thread",
+    "value" : "99872@G1291.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

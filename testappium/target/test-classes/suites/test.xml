@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regress">
+    <!--<test name="MB тест1">-->
+        <!--<classes>-->
+            <!--<class name="SideMenu.Exit"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты2">-->
+        <!--<classes>-->
+            <!--<class name="SideMenu.SeeLogin"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты3">-->
+        <!--<classes>-->
+            <!--<class name="SideMenu.Contacts"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты4">-->
+        <!--<classes>-->
+            <!--<class name="SideMenu.Settings"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты5">-->
+        <!--<classes>-->
+            <!--<class name="SideMenu.Offers"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты6">-->
+        <!--<classes>-->
+            <!--<class name="HomeScreen.OpenTemplatesList"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты7">-->
+        <!--<classes>-->
+            <!--<class name="HomeScreen.OpenTemplatesList"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MB тесты8">-->
+        <!--<classes>-->
+            <!--<class name="Cards.On3DSecure"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <test name="MB тесты9">
+        <classes>
+            <class name="Cards.BlockAndUnBlocCard"/>
+        </classes>
+    </test>
+
+</suite>
+
+
