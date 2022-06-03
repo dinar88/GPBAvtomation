@@ -30,7 +30,7 @@ public class Base {
         capabilities.setCapability("deviceName", "D6503");
 
         // Set BROWSER_NAME desired capability. It's Android in our case here.
-        capabilities.setCapability("browserName", "Android");
+        capabilities.setCapability("platformName", "Android");
 
         // Set android VERSION desired capability. Set your mobile device's OS version.
         capabilities.setCapability("platformVersion", "6.0.1");

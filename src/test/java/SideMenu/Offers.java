@@ -33,6 +33,7 @@ public class Offers extends Base {
         boolean retVal;
         retVal = Str1.equals(Str2);
         System.out.println("Текст корректный? Ответ: " + retVal );
+        //если текст совпадает то ответ тру если нет то ответ фолс
 
 
     }
