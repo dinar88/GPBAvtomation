@@ -1,21 +1,24 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-import java.net.MalformedURLException;
-
-       // import java.net.MalformedURLException;
-        import java.net.URL;
-        import java.util.concurrent.TimeUnit;
-
-        import org.openqa.selenium.By;
-        //import org.openqa.selenium.WebDriver;
-        import org.openqa.selenium.remote.CapabilityType;
-       // import org.openqa.selenium.remote.DesiredCapabilities;
-        import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
+
+import static com.codeborne.selenide.SelenideElement.*;
+import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.$;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 
 public class MobileKalkTest {
@@ -31,7 +34,7 @@ public class MobileKalkTest {
         capabilities.setCapability("deviceName", "D6503");
 
         // Set BROWSER_NAME desired capability. It's Android in our case here.
-        capabilities.setCapability(CapabilityType.BROWSER_NAME, "Android");
+       // capabilities.setCapability(CapabilityType.BROWSER_NAME, "Android");
 
         // Set android VERSION desired capability. Set your mobile device's OS version.
         capabilities.setCapability(CapabilityType.VERSION, "6.0.1");
@@ -62,10 +65,9 @@ public class MobileKalkTest {
     public void Sum() {
         // Click on DELETE/CLR button to clear result text box before running test.
         driver.findElements(By.xpath("//android.widget.Button")).get(5).click();//этоИщетПоИндексуКнопкуПропишет6
-
         // Click on number 2 button.
         driver.findElement(By.name("4")).click();  //это ищет по названию кнопки
-        driver.findElement(By.name("2")).click();
+
 
         // Click on + button.
         driver.findElement(By.name("+")).click();
