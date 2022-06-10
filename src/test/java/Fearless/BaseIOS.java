@@ -7,6 +7,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -17,13 +18,13 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.AssertJUnit.fail;
 
-public class Example {
+public class BaseIOS {
 
     @SuppressWarnings("rawtypes")
     //IOSDriver driver;
     WebDriver driver;
 
-    @BeforeTest
+    @BeforeMethod
     public void beforeTest() throws MalformedURLException{
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platformName", "iOS");
@@ -38,16 +39,6 @@ public class Example {
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
         //driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub")), caps;
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-    }
-
-
-    @Test
-    public void test() throws InterruptedException, IOException {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-       // driver.findElementByAccessibilityId("new").Click();
-      //  driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/storyCloseIcon")).click();
-        driver.findElement(By.xpath("//XCUIElementTypeStaticText[@name=\"Create a new wallet\"]")).click();
-
     }
 
 }

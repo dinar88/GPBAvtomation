@@ -2,17 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="regress">
-    <test name="MB тест1">
+
+
+   <test name="MB тест1">
         <classes>
-            <class name="Fearless.Example"/>
+            <class name="ASettings.AndroidSett"/>
         </classes>
     </test>
 
     <test name="MB тесты2">
         <classes>
-            <class name="Fearless.start"/>
+            <class name="ASettings.AndroidSettAbout"/>
         </classes>
     </test>
+
+
 
 </suite>
 
