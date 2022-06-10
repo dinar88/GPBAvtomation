@@ -6,7 +6,7 @@ Cards\BlockAndUnBlocCard.class
 Avtorization\WithTheCorrectPassword.class
 Cards\Base.class
 SideMenu\Contacts.class
-SideMenu\Settings.class
+SideMenu\ASettings.class
 SideMenu\Exit.class
 HomeScreen\OpenTemplatesList.class
 Avtorization\WithTheWrongPassword.class

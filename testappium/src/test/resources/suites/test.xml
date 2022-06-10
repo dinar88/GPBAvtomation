@@ -22,7 +22,7 @@
 
     <!--<test name="MB тесты4">-->
         <!--<classes>-->
-            <!--<class name="SideMenu.Settings"/>-->
+            <!--<class name="SideMenu.ASettings"/>-->
         <!--</classes>-->
     <!--</test>-->
 

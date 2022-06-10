@@ -2,6 +2,7 @@ package Avtorization;
 
 //Авторизация с корректным паролем
 
+import Fearless.BaseAndroid;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;

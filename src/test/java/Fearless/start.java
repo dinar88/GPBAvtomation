@@ -1,15 +1,19 @@
 package Fearless;
 
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 //import org.testng.annotations.AfterTest;
+import org.springframework.core.annotation.Order;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import javax.swing.text.html.Option;
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
@@ -23,8 +27,10 @@ public class start {
     WebDriver driver;
 
     @BeforeTest
-    public void setUp() throws MalformedURLException {
+
+    public void Step0Launch() throws MalformedURLException {
         // Created object of DesiredCapabilities class.
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         // Set android deviceName desired capability. Set your device name.
@@ -50,18 +56,21 @@ public class start {
         // Set your application's appPackage if you are using any other app.
         // эту инфу мы смотрим в приложении на поле Activities
         capabilities.setCapability("appActivity", "jp.co.soramitsu.app.root.presentation.RootActivity");
-       // capabilities.setCapability("appActivity","com.journeyapps.barcodescanner.CaptureActivity");
-
+         //jp.co.soramitsu.fearless.staging:id/action_bar_root
+      // capabilities.setCapability("appActivity","root_touch_interceptor");
+       // capabilities.setCapability("resource-id","jp.co.soramitsu.fearless.staging:id/dotsProgressView");
 
         // Created object of RemoteWebDriver will all set capabilities.
         // Set appium server address and port number in URL string.
         // It will launch calculator app in android device.
+
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
     @Test
-    public void Sum() {
+     void Step1Mnemonic() {
         // Click on DELETE/CLR button to clear result text box before running test.
        // driver.findElements(By.xpath("//android.widget.Button")).get(5).click();//этоИщетПоИндексуКнопкуПропишет6
         // Click on number 2 button.
@@ -69,18 +78,21 @@ public class start {
 
 
         // Click on + button.
+//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/storyCloseIcon")).click();
+//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/createAccountBtn")).click();
+//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/inputField")).sendKeys("123");
+//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
+//        driver.findElement(By.id("android:id/button1")).click();
+//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
+//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/confirmMnemonicSkip")).click();
+
+
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/storyCloseIcon")).click();
-
-
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/createAccountBtn")).click();
-
-       // driver.findElementByName("Пароль").sendKeys("Qwer1234)");
+        Selenide.sleep(5000);
+        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/importAccountBtn")).click();
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/inputField")).sendKeys("123");
+        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/importMnemonicContent")).sendKeys("present brick service spin vivid catalog wrestle life year husband warm certain");
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
-        driver.findElement(By.id("android:id/button1")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/confirmMnemonicSkip")).click();
-
 
 
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
@@ -123,6 +135,18 @@ public class start {
    // public void End() {
        // driver.quit();
    // }
+
+    @Test
+    @Description("next testtttt")
+
+     void Step2ChooseSettings(){
+        Selenide.sleep(2000);
+       // driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/assetsManageAction")).click();
+        // xpath тут класс в аппиум сканер смотрим потом пропишем bounds
+        //driver.findElement(By.xpath("//android.view.ViewGroup[@bounds='[42,474][1038,684]']")).click();
+        driver.findElement(By.xpath("//android.widget.FrameLayout[@content-desc=\"Settings\"]")).click();
+    }
+
 
 
 }

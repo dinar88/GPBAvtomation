@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class Contacts extends Base {
-    @Description("Здесь проверяется приходит ли номер обратной связи," +
-            "не функционал")
+
     @Test
     public void contacts() {
 

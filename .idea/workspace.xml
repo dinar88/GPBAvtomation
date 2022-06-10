@@ -5,308 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d29ea7e-12fe-40f2-9388-c7c57ea2ea76" name="Default Changelist" comment="New">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_6_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_core_6_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_6_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_test_filter_2_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_surefire_plugin_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_api_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_extensions_spi_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_logger_api_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_shared_utils_3_0_0_M6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_api_0_9_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_impl_0_9_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_spi_0_9_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_util_0_9_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_0_0_M2a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_0_0_M2a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openpnp_opencv_3_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_no_aop_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSett.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettAbout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettLanguage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettPin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettWallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/BaseAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/BaseIOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/ImportAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/SettingsIOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/qwer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Fearless/BaseAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Fearless/BaseIOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intelProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/intelProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intelProject/QW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HideBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HideBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MobileKalkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MobileKalkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MobileKalkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MobileKalkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SideMenu/Offers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SideMenu/Offers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Avtorization/WithTheCorrectPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Avtorization/WithTheCorrectPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fearless/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fearless/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fearless/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fearless/start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SideMenu/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SideMenu/Contacts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/06ba2d25-0dee-4bc7-a241-3f2432d3f5bb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/098baa96-204c-4256-ab67-f404d9b64bf1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/0ec02a05-cf0c-469a-b963-f1c070b46f62-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/17625060-60e4-4e63-8e86-2636aeef47bf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/208a32c9-abba-4749-9eec-6dbe99c39d07-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/25f91708-4717-4fed-a2c6-5da537dc16ed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/29623b00-b5f3-453e-a117-ea0529cb959d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/35a3f7dd-85e2-4cc3-a6b0-7950862a8c9f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3781d67f-2e54-447a-9a4f-6c2c8d76417a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/40d799f8-0c5e-47e5-9a34-645c7e2452af-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/416dc9e8-73bd-4520-ad25-43eaad8f0f05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/449dcbe4-c52e-4b8c-898d-0a52d41878e9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/461e34af-c506-48de-82bb-fe1050cb38ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/4b9844de-dbd8-479b-8397-59388a4c44cd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5450437f-8f29-4729-a3d5-525718991280-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/5aea2052-6213-49eb-9d8f-a4e878749cf8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6dbe1c67-6eaa-49ab-bf02-21623dfc69c2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6e3cb7e9-c99c-4ca8-aa15-8e57a5b34bc5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/70df44c2-c0ff-4ed5-9901-ffe5c6f5710a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/7c35f5f8-da08-4670-b1b4-03093f3c2387-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/88f4c5b6-7484-4c56-a8ed-29595fc919a5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8ae786e7-f699-486c-9753-d608e7f3f018-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8fb1ddaa-17aa-4228-994e-d4729f8d06ef-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/940a6ca2-fa7f-4b62-a711-c94bf208d3e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b4ca2969-94c1-4d51-9075-a62c77ff2d47-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bc0c07d9-9316-499b-8aaf-21d9d448e3b4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c3372575-09c4-4418-943f-d7cc7201b122-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/c551932d-a705-41f6-81b1-62fb21d51fe6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cc9803d1-f255-4407-b0ea-aaf853e9e04f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/d7a1412a-af76-43d7-82ed-66b0f54f24b1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/dc348244-0ef9-4a90-ac22-a836ab2604b6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ddbb15b3-b365-48fd-b15e-bc79b1b7c389-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/eab0e950-b50d-4344-9336-d3cc79024d66-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/eb277afd-d4f0-4f83-a456-3c7bd1dc0809-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/eb7b3002-f0e9-4660-9c44-060c63310644-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/executor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f653df39-8115-47b2-91f7-b8170e6b70e1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f71ed695-e45e-48ef-972c-f49e09892e3a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fd10518c-636e-42a7-b874-8bceced598d8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Avtorization/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Avtorization/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Avtorization/WithTheCorrectPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Avtorization/WithTheCorrectPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Avtorization/WithTheWrongPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Avtorization/WithTheWrongPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ForgetPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ForgetPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HideBalance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HideBalance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MobileKalkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MobileKalkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegisterWithTheCorrectPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegisterWithTheCorrectPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegistrationWithoutNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegistrationWithoutNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegistrationYes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegistrationYes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SideMenu/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SideMenu/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SideMenu/Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SideMenu/Contacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SideMenu/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SideMenu/Exit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SideMenu/Offers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SideMenu/Offers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SideMenu/SeeLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SideMenu/SeeLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SideMenu/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SideMenu/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TelekardBalanseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TelekardBalanseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/external.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MobileKalkTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MobileKalkTest/Command line test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MobileKalkTest/Command line test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MobileKalkTest/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MobileKalkTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Cards.On3DSecure.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-HomeScreen.OpenTemplatesList.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-MobileKalkTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SideMenu.Contacts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SideMenu.Exit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SideMenu.Offers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SideMenu.SeeLogin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SideMenu.Settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/Command line test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/MobileKalkTest/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тест1.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты3.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты4.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты5.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты6.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты7.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/MB тесты8.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/regress/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тест1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тест1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/regress/MB тесты8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Avtorization/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Avtorization/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Avtorization/WithTheCorrectPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Avtorization/WithTheCorrectPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Avtorization/WithTheWrongPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Avtorization/WithTheWrongPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cards/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cards/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cards/On3DSecure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cards/On3DSecure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HideBalance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HideBalance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HideBalanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HideBalanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomeScreen/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomeScreen/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomeScreen/OpenTemplatesList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomeScreen/OpenTemplatesList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MobileKalkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MobileKalkTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RegisterWithTheCorrectPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegisterWithTheCorrectPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RegistrationYes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegistrationYes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SideMenu/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SideMenu/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SideMenu/Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SideMenu/Contacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SideMenu/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SideMenu/Exit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SideMenu/Offers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SideMenu/Offers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SideMenu/SeeLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SideMenu/SeeLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SideMenu/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SideMenu/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/suites/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testappium/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testappium/src/test/resources/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/src/test/resources/suites/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testappium/target/test-classes/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/target/test-classes/suites/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -378,22 +104,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.34040046",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34040046&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -407,22 +133,24 @@
       <command value="mvn package" />
       <command value="mvn test -DsuiteXmlFiles=testng.xml" />
       <command value="mvn site" />
-      <command value="mvn clean test" />
+      <command value="mvn allure:generate" />
+      <command value="mvn allure generate" />
       <command value="mvn clean" />
+      <command value="mvn clean test" />
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Example.ex">
-    <configuration name="Example" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AndroidSett">
+    <configuration name="AndroidSett" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fearless.*" />
+          <option name="PATTERN" value="ASettings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fearless" />
-      <option name="MAIN_CLASS_NAME" value="Fearless.Example" />
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSett" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -430,44 +158,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example.ex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidSettAbout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fearless.*" />
+          <option name="PATTERN" value="ASettings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fearless" />
-      <option name="MAIN_CLASS_NAME" value="Fearless.Example" />
-      <option name="METHOD_NAME" value="ex" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation/src/test/resources/suites/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intelProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="start (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intelProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Fearless.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Fearless" />
-      <option name="MAIN_CLASS_NAME" value="Fearless.start" />
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettAbout" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -475,18 +175,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="start.Sum" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidSettPin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fearless.*" />
+          <option name="PATTERN" value="ASettings.AndroidSettPin" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Fearless" />
-      <option name="MAIN_CLASS_NAME" value="Fearless.start" />
-      <option name="METHOD_NAME" value="Sum" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettPin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettingsIOS" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ASettings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.SettingsIOS" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qwer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ASettings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.qwer" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -495,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Example.ex" />
-        <item itemvalue="TestNG.start (1)" />
-        <item itemvalue="TestNG.start.Sum" />
-        <item itemvalue="TestNG./Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation/src/test/resources/suites/test.xml" />
-        <item itemvalue="TestNG.Example" />
+        <item itemvalue="TestNG.AndroidSett" />
+        <item itemvalue="TestNG.SettingsIOS" />
+        <item itemvalue="TestNG.qwer" />
+        <item itemvalue="TestNG.AndroidSettAbout" />
+        <item itemvalue="TestNG.AndroidSettPinAndAbout" />
       </list>
     </recent_temporary>
   </component>
@@ -515,6 +248,21 @@
       <option name="presentableId" value="Default" />
       <updated>1535661456023</updated>
     </task>
+    <task id="LOCAL-00001" summary="New">
+      <created>1654284585522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654284585522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New">
+      <created>1654285672628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654285672628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
