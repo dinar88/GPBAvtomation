@@ -38,7 +38,7 @@ public class AndroidSettAbout extends BaseAndroid {
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
 
         // only for real device
-       // driver.findElement(By.id("android:id/button2")).click();
+        driver.findElement(By.id("android:id/button2")).click();
 
         Selenide.sleep(3000);
 

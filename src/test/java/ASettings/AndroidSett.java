@@ -39,7 +39,7 @@ public class AndroidSett extends BaseAndroid {
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
 
         // only for real device
-        //driver.findElement(By.id("android:id/button2")).click();
+        driver.findElement(By.id("android:id/button2")).click();
 
         Selenide.sleep(3000);
 
@@ -80,7 +80,7 @@ public class AndroidSett extends BaseAndroid {
         Selenide.sleep(2000);
 
         // тут элемент находится классу и по тексту элемента
-        driver.findElement(By.xpath("//android.widget.ImageView[@bounds='[948,542][1058,652]']")).click();
+        driver.findElement(By.xpath("//android.widget.ImageView[@bounds='[954,543][1059,648]']")).click();
     }
 
 
@@ -103,7 +103,7 @@ public class AndroidSett extends BaseAndroid {
         Selenide.sleep(2000);
 
 
-        driver.findElement(By.xpath("//android.widget.ImageView[@bounds='[948,542][1058,65]']")).click();
+        driver.findElement(By.xpath("//android.widget.ImageView[@bounds='[954,543][1059,648]']")).click();
     }
 
     @Test
@@ -111,9 +111,9 @@ public class AndroidSett extends BaseAndroid {
 
     public void Step8GoBack() {
         Selenide.sleep(2000);
+        driver.findElement(By.xpath("//android.widget.TextView[@text='Switch node']")).click();
 
 
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/fixedListSheetItemContainer")).click();
     }
 
 }

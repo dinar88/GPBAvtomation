@@ -4,30 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d29ea7e-12fe-40f2-9388-c7c57ea2ea76" name="Default Changelist" comment="New">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSett.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettAbout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettPin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettWallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/BaseAndroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/BaseIOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/ImportAndroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/SettingsIOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/qwer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fearless/BaseAndroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Fearless/BaseIOS.java" afterDir="false" />
+    <list default="true" id="4d29ea7e-12fe-40f2-9388-c7c57ea2ea76" name="Default Changelist" comment="New3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Listeners/TestAllureListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Avtorization/WithTheCorrectPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Avtorization/WithTheCorrectPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fearless/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fearless/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Fearless/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fearless/start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SideMenu/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SideMenu/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSett.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettAbout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettAbout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/qwer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testappium/src/test/resources/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/src/test/resources/suites/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testappium/target/test-classes/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testappium/target/test-classes/suites/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,12 +118,14 @@
       <command value="mvn site" />
       <command value="mvn allure:generate" />
       <command value="mvn allure generate" />
-      <command value="mvn clean" />
       <command value="mvn clean test" />
+      <command value="mvn clean test site" />
+      <command value="mvn clean" />
+      <command value="mvn allure:report" />
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AndroidSett">
+  <component name="RunManager" selected="TestNG.AndroidSettWallet">
     <configuration name="AndroidSett" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
@@ -158,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidSettAbout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidSettWallet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
@@ -167,7 +152,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettAbout" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettWallet" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -175,24 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidSettPin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intelProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ASettings.AndroidSettPin" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettPin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SettingsIOS" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidSett.Step8GoBack" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
@@ -201,24 +169,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.SettingsIOS" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSett" />
+      <option name="METHOD_NAME" value="Step8GoBack" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qwer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation/src/test/resources/suites/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intelProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ASettings.*" />
+          <option name="PATTERN" value="Fearless.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.qwer" />
+      <option name="PACKAGE_NAME" value="Fearless" />
+      <option name="MAIN_CLASS_NAME" value="Fearless.start" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -228,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AndroidSettWallet" />
+        <item itemvalue="TestNG.start" />
         <item itemvalue="TestNG.AndroidSett" />
-        <item itemvalue="TestNG.SettingsIOS" />
-        <item itemvalue="TestNG.qwer" />
-        <item itemvalue="TestNG.AndroidSettAbout" />
-        <item itemvalue="TestNG.AndroidSettPinAndAbout" />
+        <item itemvalue="TestNG.AndroidSett.Step8GoBack" />
+        <item itemvalue="TestNG./Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation/src/test/resources/suites/test.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654285672628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New2">
+      <created>1654862346317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654862346317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,7 +295,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="New2" />
+    <option name="LAST_COMMIT_MESSAGE" value="New2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
