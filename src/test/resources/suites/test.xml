@@ -3,7 +3,6 @@
 
 <suite name="regress">
 
-
    <test name="MB тест1">
         <classes>
             <class name="ASettings.AndroidSett"/>
@@ -15,8 +14,6 @@
             <class name="ASettings.AndroidSettAbout"/>
         </classes>
     </test>
-
-
 
 </suite>
 
