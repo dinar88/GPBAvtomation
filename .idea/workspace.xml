@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d29ea7e-12fe-40f2-9388-c7c57ea2ea76" name="Default Changelist" comment="New3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Listeners/TestAllureListeners.java" afterDir="false" />
+    <list default="true" id="4d29ea7e-12fe-40f2-9388-c7c57ea2ea76" name="Default Changelist" comment="New4">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidPolkascan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSubscan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSett.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettAbout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSettAbout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/qwer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +122,8 @@
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AndroidSettWallet">
-    <configuration name="AndroidSett" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AndroidPolkascan">
+    <configuration name="AndroidPolkascan" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +132,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSett" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidPolkascan" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AndroidSettAbout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ASettings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettAbout" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -160,7 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidSett.Step8GoBack" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AndroidSubscan" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
@@ -169,19 +183,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSett" />
-      <option name="METHOD_NAME" value="Step8GoBack" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation/src/test/resources/suites/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intelProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suites/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSubscan" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -207,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AndroidPolkascan" />
+        <item itemvalue="TestNG.AndroidSubscan" />
+        <item itemvalue="TestNG.AndroidSettAbout" />
         <item itemvalue="TestNG.AndroidSettWallet" />
         <item itemvalue="TestNG.start" />
-        <item itemvalue="TestNG.AndroidSett" />
-        <item itemvalue="TestNG.AndroidSett.Step8GoBack" />
-        <item itemvalue="TestNG./Users/dinarabdulkaderov/Documents/Automation/GPBAvtomation/src/test/resources/suites/test.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654862346317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New4">
+      <created>1658305286282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658305286282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -296,7 +306,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
     <MESSAGE value="New2" />
-    <option name="LAST_COMMIT_MESSAGE" value="New2" />
+    <MESSAGE value="New4" />
+    <option name="LAST_COMMIT_MESSAGE" value="New4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
