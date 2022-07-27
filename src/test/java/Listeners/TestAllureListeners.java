@@ -17,6 +17,7 @@ public class TestAllureListeners implements ITestListener {
     @Attachment(value = "Screenshot", type = "image/png")
     public byte[] saveScreenshotOnFailure(WebDriver driver){
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+
     }
 
 
@@ -24,5 +25,7 @@ public class TestAllureListeners implements ITestListener {
     public static String saveLogs(String message){
         return message;
     }
+
+
     
 }

@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d29ea7e-12fe-40f2-9388-c7c57ea2ea76" name="Default Changelist" comment="New4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidPolkascan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidSubscan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ASettings/TestCases1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/intelProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ASettings/AndroidPolkascan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ASettings/AndroidPolkascan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fearless/start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fearless/start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/TestAllureListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/TestAllureListeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +108,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Fearless" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -118,11 +125,42 @@
       <command value="mvn clean test" />
       <command value="mvn clean test site" />
       <command value="mvn clean" />
-      <command value="mvn allure:report" />
       <command value="mvn allure:serve" />
+      <command value="mvn allure:report" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AndroidPolkascan">
+  <component name="RunManager" selected="TestNG.ASettings">
+    <configuration name="TestCases1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ASettings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="MAIN_CLASS_NAME" value="ASettings.TestCases1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ASettings" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="intelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ASettings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ASettings" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AndroidPolkascan" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
@@ -140,50 +178,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AndroidSettAbout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="intelProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ASettings.*" />
+          <option name="PATTERN" value="Fearless.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettAbout" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndroidSettWallet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intelProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ASettings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSettWallet" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AndroidSubscan" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="intelProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ASettings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ASettings" />
-      <option name="MAIN_CLASS_NAME" value="ASettings.AndroidSubscan" />
+      <option name="PACKAGE_NAME" value="Fearless" />
+      <option name="MAIN_CLASS_NAME" value="Fearless.Example" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -210,10 +214,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ASettings" />
         <item itemvalue="TestNG.AndroidPolkascan" />
-        <item itemvalue="TestNG.AndroidSubscan" />
-        <item itemvalue="TestNG.AndroidSettAbout" />
-        <item itemvalue="TestNG.AndroidSettWallet" />
+        <item itemvalue="JUnit.TestCases1" />
+        <item itemvalue="TestNG.Example" />
         <item itemvalue="TestNG.start" />
       </list>
     </recent_temporary>
@@ -258,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658305286282</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New4">
+      <created>1658392720529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658392720529</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,6 +323,11 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GPBAvtomation$ASettings.ic" NAME="ASettings Coverage Results" MODIFIED="1658845364463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ASettings.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/QW.java">
