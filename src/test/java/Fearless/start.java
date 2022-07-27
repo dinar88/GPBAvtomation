@@ -1,26 +1,40 @@
 package Fearless;
 
+import Listeners.TestAllureListeners;
 import com.codeborne.selenide.Selenide;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
+import org.apache.commons.io.FileUtils;
+import org.junit.jupiter.api.DisplayName;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-//import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterTest;
 import org.springframework.core.annotation.Order;
+import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import javax.swing.text.html.Option;
+import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
+import java.sql.DriverManager;
 import java.util.concurrent.TimeUnit;
 
-//import static com.codeborne.selenide.Selenide.open;
-//import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.$;
 
 import java.net.URL;
+
+import static io.qameta.allure.Allure.addAttachment;
 
 public class start {
 
@@ -70,83 +84,70 @@ public class start {
     }
 
     @Test
+    @Attachment
      void Step1Mnemonic() {
-        // Click on DELETE/CLR button to clear result text box before running test.
-       // driver.findElements(By.xpath("//android.widget.Button")).get(5).click();//этоИщетПоИндексуКнопкуПропишет6
-        // Click on number 2 button.
-       // driver.findElement(By.name("Accounts upgraded to Wallets")).click();  //это ищет по названию кнопки
-
-
-        // Click on + button.
-//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/storyCloseIcon")).click();
-//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/createAccountBtn")).click();
-//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/inputField")).sendKeys("123");
-//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
-//        driver.findElement(By.id("android:id/button1")).click();
-//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
-//        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/confirmMnemonicSkip")).click();
-
 
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/storyCloseIcon")).click();
         Selenide.sleep(5000);
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/importAccountBtn")).click();
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/inputField")).sendKeys("123");
         driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/importMnemonicContent")).sendKeys("present brick service spin vivid catalog wrestle life year husband warm certain");
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
+       // driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/nextBtn")).click();
 
 
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
 
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        Selenide.sleep(5000);
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-        driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/btn9")).click();
-
-
-        driver.findElement(By.id("android:id/button2")).click();
-
-
-        // Click on number 5 button.
-       // --driver.findElement(By.name("5")).click();
-
-        // Click on = button.
-        //--driver.findElement(By.name("=")).click();
-
-        // Get result from result text box.
-        // String result = driver.findElement(By.className("android.widget.TextView")) .getText();
-       // String result =
-             //   driver.findElement (By.xpath("//android.widget.RelativeLayout[@index='0']/android.widget.TextView[@index='1']")).getText();
-        //driver.findElement (By.xpath("//android.widget.RelativeLayout/android.widget.TextView")).getText();можно без индекса так как классы уникальны
-        //можно и без индексов
-
-       // System.out.println("Number sum result is : " + result);
+       // Это закрывает алерт  driver.findElement(By.id("android:id/button2")).click();
 
     }
-
-   // @AfterTest
-   // public void End() {
-       // driver.quit();
-   // }
 
     @Test
-    @Description("next testtttt")
+    @Description("re")
+    @DisplayName("dd")
+    @Attachment
 
-     void Step2ChooseSettings(){
+    public void Step3TrueOrFalse() {
         Selenide.sleep(2000);
-       // driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/assetsManageAction")).click();
-        // xpath тут класс в аппиум сканер смотрим потом пропишем bounds
-        //driver.findElement(By.xpath("//android.view.ViewGroup[@bounds='[42,474][1038,684]']")).click();
-        driver.findElement(By.xpath("//android.widget.FrameLayout[@content-desc=\"Settings\"]")).click();
+        // driver.findElement(By.id("jp.co.soramitsu.fearless.staging:id/accountView")).click();
+        // Это ищет элемент и если находит то isPresent = true если нет то false
+        boolean isPresent = driver.findElements(By.id("jp.co.soramitsu.fearless.staging:id/usernameHintTv")).size() > 0;
+        // тут Assert ожидает true если false то тест падает
+        Assert.assertTrue(isPresent);
+
+
+
+
+//            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//            // Now you can do whatever you need to do with it, for example copy somewhere
+//            FileUtils.copyFile(scrFile, new File("//Users//dinarabdulkaderov//Documents//Скрин//screenshot.png"));
+
+
+
+
+
+
     }
 
 
+    @Test
+    @Attachment
+    void Step6Mnemonic() throws Exception{
+
+
+//это находит и записывает текст в переменную по имени класса и resource-id
+        String Str2 = driver.findElement(By.xpath("//android.widget.TextView[@resource-id='jp.co.soramitsu.fearless.staging:id/usernameHintTv']")).getText();
+
+String Str1 = "his name will be displayed only for you and stored locally on your mobile device.";
+
+        System.out.println("Фактический текст: " + Str1);
+        System.out.println("Должно быть: " + Str2);
+        //сравниваем Str1 и Str2
+        boolean retVal;
+        retVal = Str1.equals(Str2);
+        System.out.println("Текст есть: " + retVal );
+        Assert.assertTrue(retVal);
+        System.out.println(retVal + "вот такой текст");
+
+    }
 
 }
+

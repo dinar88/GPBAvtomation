@@ -76,7 +76,7 @@ public class AndroidPolkascan extends BaseAndroid {
     @Test
     @Description("This test checks the tap on three dots")
 
-    public void Step5ThreeDots() {
+    public void Step4ThreeDots() {
         Selenide.sleep(2000);
 
         // тут элемент находится классу и по тексту элемента
@@ -87,7 +87,7 @@ public class AndroidPolkascan extends BaseAndroid {
     @Test
     @Description("This test verifies address copying")
 
-    public void Step6ViewInPolkascan() {
+    public void Step5ViewInPolkascan() {
         Selenide.sleep(2000);
 
         // тут элемент находится классу и по тексту элемента
@@ -98,8 +98,6 @@ public class AndroidPolkascan extends BaseAndroid {
 
 
     }
-
-
 
 
 }
